@@ -21,6 +21,7 @@ export const salon = {
     label: 'Messenger',
   },
   facebook: 'https://www.facebook.com/profile.php?id=100054298879878',
+  instagram: 'https://www.instagram.com/dejavoukolc?igsh=ZWcwczliMnMwOTFn',
   hours: [
     { day: 'Monday',    range: 'Closed' },
     { day: 'Tuesday',   range: '9:00 – 19:00' },

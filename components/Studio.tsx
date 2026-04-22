@@ -89,8 +89,8 @@ export default function Studio() {
             </div>
             <div className="mt-6 flex items-center justify-between">
               <span className="label text-ink/55">01 / 16</span>
-              <a href={salon.facebook} target="_blank" rel="noreferrer" className="link-u text-[13px]">
-                See more on Facebook
+              <a href={salon.instagram} target="_blank" rel="noreferrer" className="link-u text-[13px]">
+                See more on Instagram
                 <svg width="11" height="11" viewBox="0 0 16 16" fill="none">
                   <path d="M3 13L13 3M13 3H5M13 3V11" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>

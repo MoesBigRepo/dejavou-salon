@@ -56,13 +56,15 @@ export default function WorkFeed() {
           })}
         </div>
 
-        <div className="mt-10 flex items-center justify-between">
-          <span className="label text-ink/55">Updated weekly</span>
-          <a href={salon.facebook} target="_blank" rel="noreferrer" className="link-u text-[13px]">
-            Follow the feed on Facebook
-            <svg width="11" height="11" viewBox="0 0 16 16" fill="none">
-              <path d="M3 13L13 3M13 3H5M13 3V11" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
+        <div className="mt-12 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+          <span className="label text-ink/55">Updated weekly &middot; @dejavoukolc</span>
+          <a href={salon.instagram} target="_blank" rel="noreferrer" className="btn-black">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" strokeWidth="1.6" />
+              <circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="1.6" />
+              <circle cx="17.5" cy="6.5" r="1.1" fill="currentColor" />
             </svg>
+            Follow on Instagram
           </a>
         </div>
       </div>

@@ -38,6 +38,12 @@ export default function Visit() {
                 </a>
               </li>
               <li className="py-6">
+                <div className="label text-ink/55 mb-2">Instagram</div>
+                <a href={salon.instagram} target="_blank" rel="noreferrer" className="font-display text-[clamp(22px,2vw,30px)] leading-tight text-ink hover:opacity-60 transition-opacity">
+                  @dejavoukolc
+                </a>
+              </li>
+              <li className="py-6">
                 <div className="label text-ink/55 mb-2">Email</div>
                 <a href={salon.email.href} className="font-display text-[clamp(18px,1.8vw,26px)] leading-tight text-ink hover:opacity-60 transition-opacity break-all">
                   {salon.email.address}
@@ -48,6 +54,14 @@ export default function Visit() {
             <div className="mt-10 flex flex-wrap gap-3">
               <a href={salon.phone.href} className="btn-filled">
                 Book online
+              </a>
+              <a href={salon.instagram} target="_blank" rel="noreferrer" className="btn-black">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" strokeWidth="1.6" />
+                  <circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="1.6" />
+                  <circle cx="17.5" cy="6.5" r="1.1" fill="currentColor" />
+                </svg>
+                Instagram
               </a>
               <a href={salon.address.maps} target="_blank" rel="noreferrer" className="btn-black">
                 Open in Maps

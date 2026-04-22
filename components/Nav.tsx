@@ -140,9 +140,14 @@ export default function Nav({ tone = 'dark' }: { tone?: Tone }) {
             </div>
             <div>
               <div className="label mb-2 text-ink/60">Social</div>
-              <a href={salon.facebook} target="_blank" rel="noreferrer" className="text-[15px] hover:opacity-60 transition-opacity">
-                Facebook
-              </a>
+              <div className="flex flex-col gap-1.5">
+                <a href={salon.instagram} target="_blank" rel="noreferrer" className="text-[15px] hover:opacity-60 transition-opacity">
+                  Instagram
+                </a>
+                <a href={salon.facebook} target="_blank" rel="noreferrer" className="text-[15px] hover:opacity-60 transition-opacity">
+                  Facebook
+                </a>
+              </div>
             </div>
           </div>
         </div>

@@ -39,6 +39,7 @@ export default function Footer() {
               <li><a href={salon.phone.href} className="text-ink hover:opacity-55 transition-opacity">{salon.phone.display}</a></li>
               <li><a href={salon.email.href} className="text-ink hover:opacity-55 transition-opacity break-all">{salon.email.address}</a></li>
               <li><a href={salon.messenger.href} target="_blank" rel="noreferrer" className="text-ink hover:opacity-55 transition-opacity">Messenger</a></li>
+              <li><a href={salon.instagram} target="_blank" rel="noreferrer" className="text-ink hover:opacity-55 transition-opacity">Instagram</a></li>
               <li><a href={salon.facebook} target="_blank" rel="noreferrer" className="text-ink hover:opacity-55 transition-opacity">Facebook</a></li>
             </ul>
           </div>
