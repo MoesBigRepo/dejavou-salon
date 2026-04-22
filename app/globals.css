@@ -1,0 +1,182 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --cream: #FCF6F2;
+  --ink:   #000000;
+  --muted: #212121;
+}
+
+html, body {
+  background: var(--cream);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Satoshi', ui-sans-serif, system-ui, sans-serif;
+  font-weight: 300;
+}
+
+html::-webkit-scrollbar { display: none; }
+html { -ms-overflow-style: none; scrollbar-width: none; }
+
+::selection { background: var(--ink); color: var(--cream); }
+
+/* Display serif — Italiana stands in for TAN-PEARL */
+.font-display {
+  font-family: 'Italiana', 'Cormorant Garamond', Georgia, serif;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+.hero-word {
+  font-family: 'Italiana', serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 0.92;
+  letter-spacing: 0.02em;
+  font-size: clamp(68px, 15.5vw, 264px);
+}
+
+.section-word {
+  font-family: 'Italiana', serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 0.95;
+  letter-spacing: 0.015em;
+  font-size: clamp(56px, 11.2vw, 180px);
+}
+
+.display-serif {
+  font-family: 'Italiana', serif;
+  font-weight: 400;
+  line-height: 1.08;
+  letter-spacing: 0.005em;
+}
+
+.label {
+  font-family: 'Satoshi', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.body-l {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.body-m {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+/* Pill buttons — the atelier system */
+.btn-black {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  padding: 16px 32px;
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink);
+  font-family: 'Satoshi', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  transition: background 0.6s cubic-bezier(0.4, 0, 0, 1), color 0.6s cubic-bezier(0.4, 0, 0, 1);
+}
+.btn-black:hover { background: var(--ink); color: var(--cream); }
+.btn-black:hover svg path { stroke: var(--cream); fill: var(--cream); }
+
+.btn-white {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  padding: 16px 32px;
+  border: 1px solid var(--cream);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--cream);
+  font-family: 'Satoshi', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  transition: background 0.6s cubic-bezier(0.4, 0, 0, 1), color 0.6s cubic-bezier(0.4, 0, 0, 1);
+}
+.btn-white:hover { background: var(--cream); color: var(--ink); }
+.btn-white:hover svg path { stroke: var(--ink); fill: var(--ink); }
+
+.btn-filled {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  padding: 16px 32px;
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--cream);
+  font-family: 'Satoshi', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  transition: background 0.6s cubic-bezier(0.4, 0, 0, 1), color 0.6s cubic-bezier(0.4, 0, 0, 1);
+}
+.btn-filled:hover { background: transparent; color: var(--ink); }
+
+/* Thin link underline */
+.link-u {
+  position: relative;
+  color: var(--ink);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-bottom: 2px;
+  border-bottom: 1px solid var(--ink);
+  transition: opacity 0.4s ease;
+}
+.link-u:hover { opacity: 0.55; }
+
+/* Section head with thin rule */
+.head-row {
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 36px;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+/* Reveal */
+[data-reveal] {
+  opacity: 0;
+  transform: translate3d(0, 16px, 0);
+  transition: opacity 1.1s cubic-bezier(0.2, 0.7, 0.2, 1), transform 1.1s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+[data-reveal].is-in { opacity: 1; transform: none; }
+
+/* Reset a Tailwind quirk so bg-none doesn't override */
+.hero-mask::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(33,33,33,0.25) 0%, rgba(0,0,0,0.55) 100%);
+  pointer-events: none;
+}
