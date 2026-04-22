@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="mx-auto max-w-[1720px] px-6 md:px-10">
         <div className="grid grid-cols-12 gap-10 md:gap-14 pb-16 border-b border-ink/15">
           <div className="col-span-12 md:col-span-5">
-            <Link href="/" className="font-display uppercase text-[clamp(48px,6vw,84px)] tracking-[0.03em] leading-none text-ink">
+            <Link href="/" className="wordmark text-[clamp(52px,6.5vw,92px)] text-ink block">
               DejaVou
             </Link>
             <p className="mt-8 body-m text-ink/75 max-w-sm">

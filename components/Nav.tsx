@@ -47,8 +47,8 @@ export default function Nav({ tone = 'dark' }: { tone?: Tone }) {
             Menu
           </button>
 
-          <Link href="/" aria-label="DejaVou" className={`font-display leading-none ${color}`}>
-            <span className="text-[22px] md:text-[28px] tracking-[0.08em] uppercase">DejaVou</span>
+          <Link href="/" aria-label="DejaVou" className={`leading-none ${color}`}>
+            <span className="wordmark-sm text-[22px] md:text-[26px]">DejaVou</span>
           </Link>
 
           <a
@@ -92,8 +92,8 @@ export default function Nav({ tone = 'dark' }: { tone?: Tone }) {
               </span>
               Close
             </button>
-            <Link href="/" onClick={() => setOpen(false)} className="font-display leading-none">
-              <span className="text-[22px] md:text-[28px] tracking-[0.08em] uppercase">DejaVou</span>
+            <Link href="/" onClick={() => setOpen(false)} className="leading-none">
+              <span className="wordmark-sm text-[22px] md:text-[26px]">DejaVou</span>
             </Link>
             <div className="w-[80px]" />
           </div>

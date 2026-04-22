@@ -57,16 +57,27 @@ export default function Hero() {
           </p>
         </div>
 
-        {/* Bottom-left: massive wordmark */}
+        {/* Bottom-left: massive wordmark lockup */}
         <div className="flex flex-col gap-10">
-          <h1
-            className="hero-word text-cream"
-            aria-label="DejaVou"
-          >
-            <span data-hero-word className="block overflow-hidden">
-              <span className="inline-block will-change-transform">DejaVou</span>
-            </span>
-          </h1>
+          <div className="flex flex-col gap-6">
+            <div className="flex items-center gap-5">
+              <span className="h-px w-14 md:w-20 bg-cream/70" />
+              <span className="label text-cream/85">Salon &middot; Est. 2016</span>
+            </div>
+            <h1
+              className="hero-word text-cream"
+              aria-label="DejaVou"
+            >
+              <span data-hero-word className="block overflow-hidden">
+                <span className="inline-block will-change-transform">DejaVou</span>
+              </span>
+            </h1>
+            <div className="flex items-center gap-5">
+              <span className="label text-cream/80">Montvale &middot; New Jersey</span>
+              <span className="h-px flex-1 max-w-[140px] bg-cream/50" />
+              <span className="label text-cream/80">Hair &middot; Color &middot; Lash</span>
+            </div>
+          </div>
 
           <div className="flex flex-col-reverse gap-6 md:flex-row md:items-end md:justify-between md:gap-10">
             <div className="flex flex-wrap items-center gap-4">
