@@ -1,0 +1,511 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "next.config.js",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/next.config.js",
+      "source_location": "L1",
+      "id": "users_mo_projects_dejavu_website_next_config_js",
+      "community": 14,
+      "norm_label": "next.config.js"
+    },
+    {
+      "label": "next-env.d.ts",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/next-env.d.ts",
+      "source_location": "L1",
+      "id": "users_mo_projects_dejavu_website_next_env_d_ts",
+      "community": 15,
+      "norm_label": "next-env.d.ts"
+    },
+    {
+      "label": "tailwind.config.ts",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/tailwind.config.ts",
+      "source_location": "L1",
+      "id": "users_mo_projects_dejavu_website_tailwind_config_ts",
+      "community": 16,
+      "norm_label": "tailwind.config.ts"
+    },
+    {
+      "label": "postcss.config.js",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/postcss.config.js",
+      "source_location": "L1",
+      "id": "users_mo_projects_dejavu_website_postcss_config_js",
+      "community": 17,
+      "norm_label": "postcss.config.js"
+    },
+    {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/app/layout.tsx",
+      "source_location": "L1",
+      "id": "users_mo_projects_dejavu_website_app_layout_tsx",
+      "community": 0,
+      "norm_label": "layout.tsx"
+    },
+    {
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/app/layout.tsx",
+      "source_location": "L16",
+      "id": "layout_rootlayout",
+      "community": 0,
+      "norm_label": "rootlayout()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/app/page.tsx",
+      "source_location": "L1",
+      "id": "users_mo_projects_dejavu_website_app_page_tsx",
+      "community": 1,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "HomePage()",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/app/page.tsx",
+      "source_location": "L14",
+      "id": "page_homepage",
+      "community": 1,
+      "norm_label": "homepage()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/app/contact/page.tsx",
+      "source_location": "L1",
+      "id": "users_mo_projects_dejavu_website_app_contact_page_tsx",
+      "community": 2,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "ContactPage()",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/app/contact/page.tsx",
+      "source_location": "L12",
+      "id": "page_contactpage",
+      "community": 2,
+      "norm_label": "contactpage()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/app/about/page.tsx",
+      "source_location": "L1",
+      "id": "users_mo_projects_dejavu_website_app_about_page_tsx",
+      "community": 3,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "AboutPage()",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/app/about/page.tsx",
+      "source_location": "L14",
+      "id": "page_aboutpage",
+      "community": 3,
+      "norm_label": "aboutpage()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/app/services/page.tsx",
+      "source_location": "L1",
+      "id": "users_mo_projects_dejavu_website_app_services_page_tsx",
+      "community": 18,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "PricingTeaser.tsx",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/PricingTeaser.tsx",
+      "source_location": "L1",
+      "id": "users_mo_projects_dejavu_website_components_pricingteaser_tsx",
+      "community": 19,
+      "norm_label": "pricingteaser.tsx"
+    },
+    {
+      "label": "Hero.tsx",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/Hero.tsx",
+      "source_location": "L1",
+      "id": "users_mo_projects_dejavu_website_components_hero_tsx",
+      "community": 4,
+      "norm_label": "hero.tsx"
+    },
+    {
+      "label": "Hero()",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/Hero.tsx",
+      "source_location": "L9",
+      "id": "hero_hero",
+      "community": 4,
+      "norm_label": "hero()"
+    },
+    {
+      "label": "Nav.tsx",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/Nav.tsx",
+      "source_location": "L1",
+      "id": "users_mo_projects_dejavu_website_components_nav_tsx",
+      "community": 5,
+      "norm_label": "nav.tsx"
+    },
+    {
+      "label": "Nav()",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/Nav.tsx",
+      "source_location": "L9",
+      "id": "nav_nav",
+      "community": 5,
+      "norm_label": "nav()"
+    },
+    {
+      "label": "WorkFeed.tsx",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/WorkFeed.tsx",
+      "source_location": "L1",
+      "id": "users_mo_projects_dejavu_website_components_workfeed_tsx",
+      "community": 20,
+      "norm_label": "workfeed.tsx"
+    },
+    {
+      "label": "Team.tsx",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/Team.tsx",
+      "source_location": "L1",
+      "id": "users_mo_projects_dejavu_website_components_team_tsx",
+      "community": 21,
+      "norm_label": "team.tsx"
+    },
+    {
+      "label": "Studio.tsx",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/Studio.tsx",
+      "source_location": "L1",
+      "id": "users_mo_projects_dejavu_website_components_studio_tsx",
+      "community": 6,
+      "norm_label": "studio.tsx"
+    },
+    {
+      "label": "Studio()",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/Studio.tsx",
+      "source_location": "L3",
+      "id": "studio_studio",
+      "community": 6,
+      "norm_label": "studio()"
+    },
+    {
+      "label": "SignatureCards.tsx",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/SignatureCards.tsx",
+      "source_location": "L1",
+      "id": "users_mo_projects_dejavu_website_components_signaturecards_tsx",
+      "community": 22,
+      "norm_label": "signaturecards.tsx"
+    },
+    {
+      "label": "RevealOnScroll.tsx",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/RevealOnScroll.tsx",
+      "source_location": "L1",
+      "id": "users_mo_projects_dejavu_website_components_revealonscroll_tsx",
+      "community": 7,
+      "norm_label": "revealonscroll.tsx"
+    },
+    {
+      "label": "RevealOnScroll()",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/RevealOnScroll.tsx",
+      "source_location": "L5",
+      "id": "revealonscroll_revealonscroll",
+      "community": 7,
+      "norm_label": "revealonscroll()"
+    },
+    {
+      "label": "Footer.tsx",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/Footer.tsx",
+      "source_location": "L1",
+      "id": "users_mo_projects_dejavu_website_components_footer_tsx",
+      "community": 8,
+      "norm_label": "footer.tsx"
+    },
+    {
+      "label": "Footer()",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/Footer.tsx",
+      "source_location": "L4",
+      "id": "footer_footer",
+      "community": 8,
+      "norm_label": "footer()"
+    },
+    {
+      "label": "Visit.tsx",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/Visit.tsx",
+      "source_location": "L1",
+      "id": "users_mo_projects_dejavu_website_components_visit_tsx",
+      "community": 9,
+      "norm_label": "visit.tsx"
+    },
+    {
+      "label": "Visit()",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/Visit.tsx",
+      "source_location": "L3",
+      "id": "visit_visit",
+      "community": 9,
+      "norm_label": "visit()"
+    },
+    {
+      "label": "CTA.tsx",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/CTA.tsx",
+      "source_location": "L1",
+      "id": "users_mo_projects_dejavu_website_components_cta_tsx",
+      "community": 10,
+      "norm_label": "cta.tsx"
+    },
+    {
+      "label": "CTA()",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/CTA.tsx",
+      "source_location": "L3",
+      "id": "cta_cta",
+      "community": 10,
+      "norm_label": "cta()"
+    },
+    {
+      "label": "Ethos.tsx",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/Ethos.tsx",
+      "source_location": "L1",
+      "id": "users_mo_projects_dejavu_website_components_ethos_tsx",
+      "community": 11,
+      "norm_label": "ethos.tsx"
+    },
+    {
+      "label": "Ethos()",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/Ethos.tsx",
+      "source_location": "L3",
+      "id": "ethos_ethos",
+      "community": 11,
+      "norm_label": "ethos()"
+    },
+    {
+      "label": "Welcome.tsx",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/Welcome.tsx",
+      "source_location": "L1",
+      "id": "users_mo_projects_dejavu_website_components_welcome_tsx",
+      "community": 12,
+      "norm_label": "welcome.tsx"
+    },
+    {
+      "label": "Welcome()",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/Welcome.tsx",
+      "source_location": "L1",
+      "id": "welcome_welcome",
+      "community": 12,
+      "norm_label": "welcome()"
+    },
+    {
+      "label": "content.ts",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/lib/content.ts",
+      "source_location": "L1",
+      "id": "users_mo_projects_dejavu_website_lib_content_ts",
+      "community": 13,
+      "norm_label": "content.ts"
+    },
+    {
+      "label": "img()",
+      "file_type": "code",
+      "source_file": "/Users/mo/projects/DejaVu Website/lib/content.ts",
+      "source_location": "L125",
+      "id": "content_img",
+      "community": 13,
+      "norm_label": "img()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/mo/projects/DejaVu Website/app/layout.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_src": "users_mo_projects_dejavu_website_app_layout_tsx",
+      "_tgt": "layout_rootlayout",
+      "source": "users_mo_projects_dejavu_website_app_layout_tsx",
+      "target": "layout_rootlayout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/mo/projects/DejaVu Website/app/page.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_src": "users_mo_projects_dejavu_website_app_page_tsx",
+      "_tgt": "page_homepage",
+      "source": "users_mo_projects_dejavu_website_app_page_tsx",
+      "target": "page_homepage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/mo/projects/DejaVu Website/app/contact/page.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_src": "users_mo_projects_dejavu_website_app_contact_page_tsx",
+      "_tgt": "page_contactpage",
+      "source": "users_mo_projects_dejavu_website_app_contact_page_tsx",
+      "target": "page_contactpage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/mo/projects/DejaVu Website/app/about/page.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_src": "users_mo_projects_dejavu_website_app_about_page_tsx",
+      "_tgt": "page_aboutpage",
+      "source": "users_mo_projects_dejavu_website_app_about_page_tsx",
+      "target": "page_aboutpage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/Hero.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_src": "users_mo_projects_dejavu_website_components_hero_tsx",
+      "_tgt": "hero_hero",
+      "source": "users_mo_projects_dejavu_website_components_hero_tsx",
+      "target": "hero_hero",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/Nav.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_src": "users_mo_projects_dejavu_website_components_nav_tsx",
+      "_tgt": "nav_nav",
+      "source": "users_mo_projects_dejavu_website_components_nav_tsx",
+      "target": "nav_nav",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/Studio.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "users_mo_projects_dejavu_website_components_studio_tsx",
+      "_tgt": "studio_studio",
+      "source": "users_mo_projects_dejavu_website_components_studio_tsx",
+      "target": "studio_studio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/RevealOnScroll.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "users_mo_projects_dejavu_website_components_revealonscroll_tsx",
+      "_tgt": "revealonscroll_revealonscroll",
+      "source": "users_mo_projects_dejavu_website_components_revealonscroll_tsx",
+      "target": "revealonscroll_revealonscroll",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/Footer.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "users_mo_projects_dejavu_website_components_footer_tsx",
+      "_tgt": "footer_footer",
+      "source": "users_mo_projects_dejavu_website_components_footer_tsx",
+      "target": "footer_footer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/Visit.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "users_mo_projects_dejavu_website_components_visit_tsx",
+      "_tgt": "visit_visit",
+      "source": "users_mo_projects_dejavu_website_components_visit_tsx",
+      "target": "visit_visit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/CTA.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "users_mo_projects_dejavu_website_components_cta_tsx",
+      "_tgt": "cta_cta",
+      "source": "users_mo_projects_dejavu_website_components_cta_tsx",
+      "target": "cta_cta",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/Ethos.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "users_mo_projects_dejavu_website_components_ethos_tsx",
+      "_tgt": "ethos_ethos",
+      "source": "users_mo_projects_dejavu_website_components_ethos_tsx",
+      "target": "ethos_ethos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/mo/projects/DejaVu Website/components/Welcome.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "users_mo_projects_dejavu_website_components_welcome_tsx",
+      "_tgt": "welcome_welcome",
+      "source": "users_mo_projects_dejavu_website_components_welcome_tsx",
+      "target": "welcome_welcome",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/mo/projects/DejaVu Website/lib/content.ts",
+      "source_location": "L125",
+      "weight": 1.0,
+      "_src": "users_mo_projects_dejavu_website_lib_content_ts",
+      "_tgt": "content_img",
+      "source": "users_mo_projects_dejavu_website_lib_content_ts",
+      "target": "content_img",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
